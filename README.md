@@ -4,7 +4,7 @@ Clone the repository on the Visual Code or Download it on the the computer.
 
 Commands:
 -------------------
-npm install
+npm install<br>
 node scrape.js
 -----------------------
 
