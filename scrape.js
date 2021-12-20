@@ -99,7 +99,7 @@ const scrape = async () => {
     // const jsonData = new jsonData(jsonString);
     // Array.from(jsonData);
 
-    fs.writeFileSync("json.txt", jsonString, (err) => {
+    fs.writeFileSync("jsonFile.json", jsonString, (err) => {
       if (err) console.log(err);
       else {
         console.log("File written successfully\n");
